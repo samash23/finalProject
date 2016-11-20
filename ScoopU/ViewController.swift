@@ -3,7 +3,7 @@
 //  ScoopU
 //
 //  Created by Sam on 11/20/16.
-//  Copyright © 2016 Sam. All rights reserved.
+//  Copyright © 2016 Sam Ash. All rights reserved.
 //
 
 import UIKit
