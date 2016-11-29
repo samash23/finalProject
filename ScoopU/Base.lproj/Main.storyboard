@@ -34,6 +34,9 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="NO"/>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="NO"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="c4e-Ub-JCg" kind="show" id="1hD-RR-cd1"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Are you a..." borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Dzb-s8-DgT">
                                 <rect key="frame" x="0.0" y="20" width="375" height="30"/>
@@ -43,13 +46,16 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A0o-lQ-Sgg">
-                                <rect key="frame" x="0.0" y="283" width="375" height="56"/>
+                                <rect key="frame" x="0.0" y="213" width="375" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
                                 <state key="normal" title="RIDER">
                                     <color key="titleColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="BhF-N4-GLJ" kind="show" id="dFH-YA-te8"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -59,10 +65,10 @@
             </objects>
             <point key="canvasLocation" x="-9" y="99"/>
         </scene>
-        <!--View Controller-->
+        <!--Rider-->
         <scene sceneID="9vl-dG-dvx">
             <objects>
-                <viewController id="BhF-N4-GLJ" sceneMemberID="viewController">
+                <viewController title="Rider" id="BhF-N4-GLJ" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="R9U-RY-6hx"/>
                         <viewControllerLayoutGuide type="bottom" id="K9l-bC-ljK"/>
@@ -75,7 +81,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ric-lh-HU5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="658" y="99"/>
+            <point key="canvasLocation" x="910" y="-240"/>
+        </scene>
+        <!--Driver-->
+        <scene sceneID="Noy-w7-j08">
+            <objects>
+                <viewController title="Driver" id="c4e-Ub-JCg" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Uti-31-vt4"/>
+                        <viewControllerLayoutGuide type="bottom" id="v9H-Vi-Es6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="e02-7A-ZAa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="392-Og-6mo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="911" y="439"/>
         </scene>
         <!--Login-->
         <scene sceneID="alQ-Jz-AOl">
