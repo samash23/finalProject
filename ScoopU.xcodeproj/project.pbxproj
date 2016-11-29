@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9B6D3D0F1DE265CF00797D65 /* ScoopU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScoopU.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6D3D0F1DE265CF00797D65 /* ScoopU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = ScoopU.app; path = "/Users/Ladmin/Documents/Xcode/ScoopU/build/Debug-iphoneos/ScoopU.app"; sourceTree = "<absolute>"; };
 		9B6D3D121DE265CF00797D65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B6D3D141DE265CF00797D65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9B6D3D171DE265CF00797D65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -39,16 +39,7 @@
 			isa = PBXGroup;
 			children = (
 				9B6D3D111DE265CF00797D65 /* ScoopU */,
-				9B6D3D101DE265CF00797D65 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		9B6D3D101DE265CF00797D65 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9B6D3D0F1DE265CF00797D65 /* ScoopU.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		9B6D3D111DE265CF00797D65 /* ScoopU */ = {
@@ -109,7 +100,7 @@
 				Base,
 			);
 			mainGroup = 9B6D3D061DE265CE00797D65;
-			productRefGroup = 9B6D3D101DE265CF00797D65 /* Products */;
+			productRefGroup = 9B6D3D061DE265CE00797D65;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -299,6 +290,7 @@
 				9B6D3D231DE265CF00797D65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
